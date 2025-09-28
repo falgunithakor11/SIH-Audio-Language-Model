@@ -1,0 +1,190 @@
+[{
+    "audio_filename": "clip_01.mp3",
+    "duration_seconds": 52,
+    "language": "Hinglish",
+    "scene_description": "A person on a motorcycle chases down a car to return a mobile phone that was left behind. The scene is dominated by motorcycle engine sounds and urgent dialogue.",
+    "annotations": [
+        {
+            "type": "non_speech_event",
+            "start_time": 0.0,
+            "end_time": 5.0,
+            "event_label": "motorcycle_engine_idle"
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 5.1,
+            "end_time": 6.8,
+            "speaker_id": "Speaker_A",
+            "text": "Tera mobile reh gaya gaadi mein."
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 7.2,
+            "end_time": 8.0,
+            "speaker_id": "Speaker_B",
+            "text": "Kya keh rahe ho?"
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 8.5,
+            "end_time": 12.8,
+            "speaker_id": "Speaker_A",
+            "text": "Mera mobile car mein reh gaya. Car number hai 5198, whitey car, usko rokna."
+        },
+        {
+            "type": "non_speech_event",
+            "start_time": 14.0,
+            "end_time": 27.5,
+            "event_label": "motorcycle_heavy_acceleration"
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 30.5,
+            "end_time": 32.8,
+            "speaker_id": "Speaker_B",
+            "text": "Sir ji, aapki gaadi mein kisi ka phone reh gaya."
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 36.5,
+            "end_time": 39.5,
+            "speaker_id": "Speaker_A",
+            "text": "Mera mobile, yaar. Thank you so much, bhai."
+        },
+        {
+            "type": "speech_transcript",
+            "start_time": 39.6,
+            "end_time": 40.5,
+            "speaker_id": "Speaker_B",
+            "text": "Koi nahi yaar."
+        }
+    ],
+    "question_answer_pairs": [
+        {
+            "question": "What was the main purpose of the interaction in this audio?",
+            "answer": "The main purpose was to return a mobile phone that someone had accidentally left in a white car with the number 5198."
+        },
+        {
+            "question": "Why did the motorcycle accelerate so loudly around the 14-second mark?",
+            "answer": "The motorcycle accelerated loudly in order to chase and catch up with the car where the mobile phone was left."
+        },
+        {
+            "question": "How many primary individuals were involved in the conversation?",
+            "answer": "There were at least three individuals involved: the person who forgot the phone (Speaker A), the motorcycle driver who helped (Speaker B), and the driver of the car."
+        },
+        {
+            "question": "What can be inferred about the relationship between Speaker A and Speaker B?",
+            "answer": "It can be inferred that Speaker A and Speaker B are likely friends or acquaintances, as one is helping the other in a difficult situation."
+        }
+    ]
+},{
+  "audio_filename": "clip_02.mp3",
+  "duration_seconds": 30,
+  "language": "Hinglish",
+  "scene_description": "A street food vendor describes the preparation of a breakfast plate for a customer, detailing each ingredient and the final price.",
+  "annotations": [
+    {
+      "type": "non_speech_event",
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "event_label": "street_ambience"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 0.5,
+      "end_time": 3.0,
+      "speaker_id": "Speaker_A",
+      "text": "दिल्ली का सबसे बढ़िया नाश्ता, नितिन भाई कितने रुपए में?"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 3.2,
+      "end_time": 3.7,
+      "speaker_id": "Speaker_B",
+      "text": "₹40"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 3.8,
+      "end_time": 5.5,
+      "speaker_id": "Speaker_A",
+      "text": "लगाओ भाई, मजा आ जाएगा ना खा के?"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 5.8,
+      "end_time": 9.7,
+      "speaker_id": "Speaker_B",
+      "text": "वो तुम बताओगे। सबसे पहले आलू की सब्जी।"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 9.8,
+      "end_time": 12.1,
+      "speaker_id": "Speaker_B",
+      "text": "मेथी दाने की चटनी।"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 12.2,
+      "end_time": 13.7,
+      "speaker_id": "Speaker_B",
+      "text": "ये दही आ गया।"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 13.8,
+        "end_time": 18.5,
+        "speaker_id": "Speaker_B",
+        "text": "ये चाट मसाला आ गया। ये धनिया आ गया गार्निशिंग के लिए।"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 19.8,
+        "end_time": 20.7,
+        "speaker_id": "Speaker_A",
+        "text": "इसके साथ क्या मिल जाएगा भैया?"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 20.8,
+        "end_time": 22.7,
+        "speaker_id": "Speaker_B",
+        "text": "इसके साथ आ गई ये बेड़मी पूरी, दो।"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 24.5,
+        "end_time": 26.8,
+        "speaker_id": "Speaker_A",
+        "text": "तैयार हो गया क्या अपना नाश्ता? कितने रुपए में?"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 26.9,
+        "end_time": 29.0,
+        "speaker_id": "Speaker_B",
+        "text": "₹40। इसको खाने के लिए आना कहां पड़ेगा? सामने आ जाओ।"
+    }
+  ],
+  "question_answer_pairs": [
+    {
+      "question": "What dish is being prepared and what is its price?",
+      "answer": "A plate of breakfast is being prepared which is served with two Bedmi Puris. The total cost is ₹40."
+    },
+    {
+      "question": "What are the components of the dish described by the vendor?",
+      "answer": "The dish consists of Aloo ki Sabji (potato curry), Methi Daane ki Chutney (fenugreek seed chutney), Dahi (yogurt), Chaat Masala, and is garnished with Dhaniya (coriander)."
+    },
+    {
+      "question": "How many people are speaking in the audio?",
+      "answer": "There are two main speakers: the customer (Speaker A) and the food vendor (Speaker B)."
+    },
+    {
+      "question": "What does the customer need to do to eat this breakfast?",
+      "answer": "The vendor tells the customer to just come 'in front' ('सामने आ जाओ'), implying the stall is right there and ready to serve."
+    }
+  ]
+}
+
+]

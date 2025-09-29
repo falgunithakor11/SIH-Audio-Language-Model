@@ -94,7 +94,7 @@
       "start_time": 0.5,
       "end_time": 3.0,
       "speaker_id": "Speaker_A",
-      "text": "दिल्ली का सबसे बढ़िया नाश्ता, नितिन भाई कितने रुपए में?"
+      "text": "Delhi ka sabse badhiya naashta, Nitin bhai kitne rupay mein?"
     },
     {
       "type": "speech_transcript",
@@ -108,63 +108,63 @@
       "start_time": 3.8,
       "end_time": 5.5,
       "speaker_id": "Speaker_A",
-      "text": "लगाओ भाई, मजा आ जाएगा ना खा के?"
+      "text": "Lagao bhai, maza aa jayega na kha ke?"
     },
     {
       "type": "speech_transcript",
       "start_time": 5.8,
       "end_time": 9.7,
       "speaker_id": "Speaker_B",
-      "text": "वो तुम बताओगे। सबसे पहले आलू की सब्जी।"
+      "text": "Woh tum bataoge. Sabse pehle aloo ki sabzi."
     },
     {
       "type": "speech_transcript",
       "start_time": 9.8,
       "end_time": 12.1,
       "speaker_id": "Speaker_B",
-      "text": "मेथी दाने की चटनी।"
+      "text": "Methi daane ki chutney."
     },
     {
       "type": "speech_transcript",
       "start_time": 12.2,
       "end_time": 13.7,
       "speaker_id": "Speaker_B",
-      "text": "ये दही आ गया।"
+      "text": "Yeh dahi aa gaya."
     },
     {
         "type": "speech_transcript",
         "start_time": 13.8,
         "end_time": 18.5,
         "speaker_id": "Speaker_B",
-        "text": "ये चाट मसाला आ गया। ये धनिया आ गया गार्निशिंग के लिए।"
+        "text": "Yeh chaat masala aa gaya. Yeh dhaniya aa gaya garnishing ke liye."
     },
     {
         "type": "speech_transcript",
         "start_time": 19.8,
         "end_time": 20.7,
         "speaker_id": "Speaker_A",
-        "text": "इसके साथ क्या मिल जाएगा भैया?"
+        "text": "Iske saath kya mil jayega bhaiya?"
     },
     {
         "type": "speech_transcript",
         "start_time": 20.8,
         "end_time": 22.7,
         "speaker_id": "Speaker_B",
-        "text": "इसके साथ आ गई ये बेड़मी पूरी, दो।"
+        "text": "Iske saath kya mil jayega bhaiya?"
     },
     {
         "type": "speech_transcript",
         "start_time": 24.5,
         "end_time": 26.8,
         "speaker_id": "Speaker_A",
-        "text": "तैयार हो गया क्या अपना नाश्ता? कितने रुपए में?"
+        "text":"Taiyaar ho gaya kya apna naashta? Kitne rupay mein?"
     },
     {
         "type": "speech_transcript",
         "start_time": 26.9,
         "end_time": 29.0,
         "speaker_id": "Speaker_B",
-        "text": "₹40। इसको खाने के लिए आना कहां पड़ेगा? सामने आ जाओ।"
+        "text": "₹40. Isko khaane ke liye aana kahan padega? Saamne aa jao."
     }
   ],
   "question_answer_pairs": [

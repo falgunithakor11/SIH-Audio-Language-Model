@@ -182,10 +182,10 @@
         "question": "How many people are speaking in the audio?",
         "answer": "There are two main speakers: the customer (Speaker A) and the food vendor (Speaker B)."
       },
-       {
-      "question": "What can be inferred about the location of the food stall?",
-      "answer": "The food stall is located in Delhi, as the customer calls the dish 'Dilli ka sabse badhiya naashta'. The vendor also implies the stall is right in front of the customer."
-    },
+      {
+        "question": "What can be inferred about the location of the food stall?",
+        "answer": "The food stall is located in Delhi, as the customer calls the dish 'Dilli ka sabse badhiya naashta'. The vendor also implies the stall is right in front of the customer."
+      },
       {
         "question": "What does the customer need to do to eat this breakfast?",
         "answer": "The vendor tells the customer to just come 'in front' ('samne aa jao'), implying the stall is right there and ready to serve."
@@ -303,74 +303,302 @@
     ]
   },
   {
-  "audio_filename": "clip_04.mp3",
-  "duration_seconds": 57,
-  "language": "Marathi, Hindi",
-  "scene_description": "The chaotic and noisy ambience of a busy Indian railway station, with multiple, overlapping public announcements in Marathi and Hindi, and dense crowd chatter.",
-  "annotations": [
-    {
-      "type": "non_speech_event",
-      "start_time": 0.0,
-      "end_time": 57.0,
-      "event_label": "station_ambience_crowd_noise"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 1.5,
-      "end_time": 8.5,
-      "speaker_id": "Announcer_F1",
-      "text": "Dombivli la janari... platform kramank ek var... aaplya apekshit platform kramank ek var... [Going to Dombivli... on platform number one... on your expected platform number one...]"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 16.0,
-      "end_time": 26.0,
-      "speaker_id": "Announcer_F2",
-      "text": "Dombivli ke liye jaane wali... platform kramank do ki taraf se... nau bajkar pandrah minute pe... Dombivli ke liye jaane wali... [Going to Dombivli... from platform number two... at 9:15... Going to Dombivli...]"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 27.0,
-      "end_time": 33.5,
-      "speaker_id": "Announcer_F1",
-      "text": "Platform kramank chheh se... Yatri krupaya nond ghyavi... [From platform number six... Passengers please take note...]"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 34.0,
-      "end_time": 38.0,
-      "speaker_id": "Announcer_F2",
-      "text": "...yatriyon se anurodh hai ki kripya dhyan de... [...passengers are requested to please pay attention...]"
-    },
-    {
+    "audio_filename": "clip_04.mp3",
+    "duration_seconds": 57,
+    "language": "Marathi, Hindi",
+    "scene_description": "The chaotic and noisy ambience of a busy Indian railway station, with multiple, overlapping public announcements in Marathi and Hindi, and dense crowd chatter.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 57.0,
+        "event_label": "station_ambience_crowd_noise"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 1.5,
+        "end_time": 8.5,
+        "speaker_id": "Announcer_F1",
+        "text": "Dombivli la janari... platform kramank ek var... aaplya apekshit platform kramank ek var... [Going to Dombivli... on platform number one... on your expected platform number one...]"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 16.0,
+        "end_time": 26.0,
+        "speaker_id": "Announcer_F2",
+        "text": "Dombivli ke liye jaane wali... platform kramank do ki taraf se... nau bajkar pandrah minute pe... Dombivli ke liye jaane wali... [Going to Dombivli... from platform number two... at 9:15... Going to Dombivli...]"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 27.0,
+        "end_time": 33.5,
+        "speaker_id": "Announcer_F1",
+        "text": "Platform kramank chheh se... Yatri krupaya nond ghyavi... [From platform number six... Passengers please take note...]"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 34.0,
+        "end_time": 38.0,
+        "speaker_id": "Announcer_F2",
+        "text": "...yatriyon se anurodh hai ki kripya dhyan de... [...passengers are requested to please pay attention...]"
+      },
+      {
         "type": "speech_transcript",
         "start_time": 42.0,
         "end_time": 55.0,
         "speaker_id": "Announcer_F1",
         "text": "Platform kramank paach varun... [From platform number five...]"
-    }
-  ],
-  "speaker_details": [
-      {"speaker_id": "Announcer_F1", "gender": "female", "age_group": "adult", "description": "PA system announcer (Marathi)"},
-      {"speaker_id": "Announcer_F2", "gender": "female", "age_group": "adult", "description": "PA system announcer (Hindi)"}
-  ],
-  "question_answer_pairs": [
-    {
-      "question": "What kind of environment does this audio capture?",
-      "answer": "The audio captures the environment of a very busy and crowded Indian railway station, which can be inferred from the constant crowd noise and the public address system announcements about train platforms."
-    },
-    {
-      "question": "What is the primary destination being announced for the trains?",
-      "answer": "The primary destination being announced is Dombivli, which is mentioned repeatedly in both the Marathi and Hindi announcements."
-    },
-    {
-      "question": "What makes understanding the announcements in this audio difficult?",
-      "answer": "Understanding is difficult due to the heavy background crowd noise and multiple, overlapping announcements being made in at least two different languages (Marathi and Hindi)."
-    },
-    {
-      "question": "What specific train details, like platform numbers and times, can be gathered from the announcements?",
-      "answer": "The announcements are fragmented, but mention a train to Dombivli at 9:15 from platform 2. Other platforms mentioned are 1, 5, and 6, but the specific train details for them are unclear due to the noise and overlap."
-    }
-  ]
-}
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Announcer_F1",
+        "gender": "female",
+        "age_group": "adult",
+        "description": "PA system announcer (Marathi)"
+      },
+      {
+        "speaker_id": "Announcer_F2",
+        "gender": "female",
+        "age_group": "adult",
+        "description": "PA system announcer (Hindi)"
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What kind of environment does this audio capture?",
+        "answer": "The audio captures the environment of a very busy and crowded Indian railway station, which can be inferred from the constant crowd noise and the public address system announcements about train platforms."
+      },
+      {
+        "question": "What is the primary destination being announced for the trains?",
+        "answer": "The primary destination being announced is Dombivli, which is mentioned repeatedly in both the Marathi and Hindi announcements."
+      },
+      {
+        "question": "What makes understanding the announcements in this audio difficult?",
+        "answer": "Understanding is difficult due to the heavy background crowd noise and multiple, overlapping announcements being made in at least two different languages (Marathi and Hindi)."
+      },
+      {
+        "question": "What specific train details, like platform numbers and times, can be gathered from the announcements?",
+        "answer": "The announcements are fragmented, but mention a train to Dombivli at 9:15 from platform 2. Other platforms mentioned are 1, 5, and 6, but the specific train details for them are unclear due to the noise and overlap."
+      }
+    ]
+  },
+  {
+    "audio_filename": "clip_05.mp3",
+    "duration_seconds": 47,
+    "language": "Unintelligible Speech",
+    "scene_description": "A very large and dense crowd, likely at a protest, rally, or major public gathering. The sound is dominated by the overwhelming noise of hundreds or thousands of people shouting, chanting, and cheering simultaneously.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 47.0,
+        "event_label": "large_crowd_shouting_and_chanting"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 0.0,
+        "end_time": 47.0,
+        "speaker_id": "Crowd",
+        "text": "[Unintelligible mass chanting and shouting]"
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Crowd",
+        "description": "A very large, unified group of people shouting together, making individual voices impossible to distinguish."
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What is the most prominent sound in this audio clip?",
+        "answer": "The most prominent sound is the overwhelming noise of a very large and dense crowd of people shouting or chanting in unison."
+      },
+      {
+        "question": "Can any individual conversations be understood from the audio?",
+        "answer": "No, the crowd noise is too dense and overlapping, making it impossible to understand any individual conversations or words."
+      },
+      {
+        "question": "What kind of event could this audio be from?",
+        "answer": "This audio is likely from a large-scale public event such as a political rally, a major protest, a sports stadium with a massive audience, or a large festival."
+      },
+      {
+        "question": "What is the overall mood or atmosphere conveyed by the sound?",
+        "answer": "The atmosphere is intense, energetic, and unified. Depending on the context, it could be interpreted as angry (a protest), excited (a sports match), or celebratory (a festival)."
+      }
+    ]
+  },
+  {
+    "audio_filename": "clip_06.mp3",
+    "duration_seconds": 42,
+    "language": "Vietnamese",
+    "scene_description": "A very noisy and lively social gathering, likely in Vietnam, with many people talking, shouting, and laughing simultaneously, creating a dense and energetic atmosphere.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 42.0,
+        "event_label": "social_gathering_ambience_loud"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 0.0,
+        "end_time": 42.0,
+        "speaker_id": "Group",
+        "text": "[Multiple overlapping, unintelligible conversations in Vietnamese]"
+      },
+      {
+        "type": "non_speech_event",
+        "start_time": 25.5,
+        "end_time": 27.0,
+        "event_label": "group_laughter"
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Group",
+        "description": "A large group of people talking and laughing at the same time, making individual speakers difficult to distinguish."
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What is the overall environment of this audio clip?",
+        "answer": "The environment is a very loud and crowded social gathering, possibly a party or a busy restaurant, where many people are talking at once."
+      },
+      {
+        "question": "Can individual conversations be clearly understood?",
+        "answer": "No, the conversations are heavily overlapping and drowned out by the general ambience, making it impossible to follow any single dialogue."
+      },
+      {
+        "question": "What is the mood of the gathering?",
+        "answer": "The mood is energetic, lively, and social, as indicated by the constant chatter and moments of group laughter."
+      },
+      {
+        "question": "Based on the phonetics, what language is most likely being spoken?",
+        "answer": "The language sounds like Vietnamese, although the specific words are unintelligible due to the noise."
+      }
+    ]
+  },
+  {
+    "audio_filename": "clip_07.mp3",
+    "duration_seconds": 49,
+    "language": "Malayalam",
+    "scene_description": "The ambient sound of a large, reverberant indoor space, like a public hall, lobby, or museum. The audio is characterized by significant echo and the distant, indistinct chatter of people.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 49.0,
+        "event_label": "large_indoor_ambience_reverb"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 0.0,
+        "end_time": 49.0,
+        "speaker_id": "Group",
+        "text": "[Distant, unintelligible chatter with heavy echo]"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 44.5,
+        "end_time": 46.5,
+        "speaker_id": "Speaker_A",
+        "text": "[Unintelligible Malayalam] ...olukum ottikkum..."
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Group",
+        "description": "Indistinct chatter from multiple people far away."
+      },
+      {
+        "speaker_id": "Speaker_A",
+        "gender": "male",
+        "age_group": "adult",
+        "description": "A clearer speaker towards the end."
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "Describe the acoustic properties of the location in the audio.",
+        "answer": "The location is a large, open indoor space with hard surfaces, which causes significant echo and reverberation of all sounds."
+      },
+      {
+        "question": "Why is the speech in this audio difficult to understand?",
+        "answer": "The speech is difficult to understand because the speakers are distant and their voices are heavily distorted by the room's natural echo."
+      },
+      {
+        "question": "What kind of place could this be?",
+        "answer": "This could be a large institutional building lobby, a museum hall, a cathedral, or a sparsely populated airport terminal, all of which are known for such acoustic characteristics."
+      },
+      {
+        "question": "What language can be partially identified towards the end of the clip?",
+        "answer": "The language spoken by the clearer speaker towards the end sounds like Malayalam."
+      }
+    ]
+  },
+  {
+    "audio_filename": "clip_08.mp3",
+    "duration_seconds": 49,
+    "language": "Hindi",
+    "scene_description": "A devotional gathering (satsang or kirtan) in India, with a group of people singing a bhajan (devotional song) accompanied by rhythmic, synchronized clapping and the sound of a bell or small cymbals (manjira).",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 49.0,
+        "event_label": "rhythmic_clapping_group"
+      },
+      {
+        "type": "non_speech_event",
+        "start_time": 21.5,
+        "end_time": 22.5,
+        "event_label": "bell_ring"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 1.0,
+        "end_time": 49.0,
+        "speaker_id": "Group_Chorus",
+        "text": "[Group singing a devotional bhajan in Hindi, including phrases like 'Radha Murari' and 'Hey Ram']"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 14.0,
+        "end_time": 17.5,
+        "speaker_id": "Lead_Singer",
+        "text": "Ek naam banana hai, naam banana hai... [A name has to be made... a name has to be made...]"
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Lead_Singer",
+        "gender": "male",
+        "age_group": "adult",
+        "description": "The person leading the devotional song."
+      },
+      {
+        "speaker_id": "Group_Chorus",
+        "description": "A group of people singing in unison with the lead singer."
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What kind of event is taking place in this audio?",
+        "answer": "The audio captures a devotional or spiritual singing event, likely a bhajan or kirtan, which is a common practice in India."
+      },
+      {
+        "question": "What non-speech sounds are prominently featured alongside the singing?",
+        "answer": "The singing is accompanied by continuous, rhythmic group clapping and the occasional ring of a small bell or cymbals (manjira)."
+      },
+      {
+        "question": "What is the overall atmosphere or mood of the event?",
+        "answer": "The atmosphere is devotional, participatory, and spiritual, created by the combination of group singing and synchronized clapping."
+      },
+      {
+        "question": "Based on the lyrics, what is the theme of the song?",
+        "answer": "The song has a religious theme, as indicated by the chanting of Hindu deity names like 'Radha Murari' and 'Ram'."
+      }
+    ]
+  }
 ]

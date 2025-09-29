@@ -1,190 +1,376 @@
-[{
+[
+  {
     "audio_filename": "clip_01.mp3",
     "duration_seconds": 52,
     "language": "Hinglish",
     "scene_description": "A person on a motorcycle chases down a car to return a mobile phone that was left behind. The scene is dominated by motorcycle engine sounds and urgent dialogue.",
     "annotations": [
-        {
-            "type": "non_speech_event",
-            "start_time": 0.0,
-            "end_time": 5.0,
-            "event_label": "motorcycle_engine_idle"
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 5.1,
-            "end_time": 6.8,
-            "speaker_id": "Speaker_A",
-            "text": "Tera mobile reh gaya gaadi mein."
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 7.2,
-            "end_time": 8.0,
-            "speaker_id": "Speaker_B",
-            "text": "Kya keh rahe ho?"
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 8.5,
-            "end_time": 12.8,
-            "speaker_id": "Speaker_A",
-            "text": "Mera mobile car mein reh gaya. Car number hai 5198, whitey car, usko rokna."
-        },
-        {
-            "type": "non_speech_event",
-            "start_time": 14.0,
-            "end_time": 27.5,
-            "event_label": "motorcycle_heavy_acceleration"
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 30.5,
-            "end_time": 32.8,
-            "speaker_id": "Speaker_B",
-            "text": "Sir ji, aapki gaadi mein kisi ka phone reh gaya."
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 36.5,
-            "end_time": 39.5,
-            "speaker_id": "Speaker_A",
-            "text": "Mera mobile, yaar. Thank you so much, bhai."
-        },
-        {
-            "type": "speech_transcript",
-            "start_time": 39.6,
-            "end_time": 40.5,
-            "speaker_id": "Speaker_B",
-            "text": "Koi nahi yaar."
-        }
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 5.0,
+        "event_label": "motorcycle_engine_idle"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 5.1,
+        "end_time": 6.8,
+        "speaker_id": "Speaker_A",
+        "text": "Tera mobile reh gaya gaadi mein."
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 7.2,
+        "end_time": 8.0,
+        "speaker_id": "Speaker_B",
+        "text": "Kya keh rahe ho?"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 8.5,
+        "end_time": 12.8,
+        "speaker_id": "Speaker_A",
+        "text": "Mera mobile car mein reh gaya. Car number hai 5198, whitey car, usko rokna."
+      },
+      {
+        "type": "non_speech_event",
+        "start_time": 14.0,
+        "end_time": 27.5,
+        "event_label": "motorcycle_heavy_acceleration"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 30.5,
+        "end_time": 32.8,
+        "speaker_id": "Speaker_B",
+        "text": "Sir ji, aapki gaadi mein kisi ka phone reh gaya."
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 36.5,
+        "end_time": 39.5,
+        "speaker_id": "Speaker_A",
+        "text": "Mera mobile, yaar. Thank you so much, bhai."
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 39.6,
+        "end_time": 40.5,
+        "speaker_id": "Speaker_B",
+        "text": "Koi nahi yaar."
+      }
     ],
     "question_answer_pairs": [
-        {
-            "question": "What was the main purpose of the interaction in this audio?",
-            "answer": "The main purpose was to return a mobile phone that someone had accidentally left in a white car with the number 5198."
-        },
-        {
-            "question": "Why did the motorcycle accelerate so loudly around the 14-second mark?",
-            "answer": "The motorcycle accelerated loudly in order to chase and catch up with the car where the mobile phone was left."
-        },
-        {
-            "question": "How many primary individuals were involved in the conversation?",
-            "answer": "There were at least three individuals involved: the person who forgot the phone (Speaker A), the motorcycle driver who helped (Speaker B), and the driver of the car."
-        },
-        {
-            "question": "What can be inferred about the relationship between Speaker A and Speaker B?",
-            "answer": "It can be inferred that Speaker A and Speaker B are likely friends or acquaintances, as one is helping the other in a difficult situation."
-        }
+      {
+        "question": "What was the main purpose of the interaction in this audio?",
+        "answer": "The main purpose was to return a mobile phone that someone had accidentally left in a white car with the number 5198."
+      },
+      {
+        "question": "Why did the motorcycle accelerate so loudly around the 14-second mark?",
+        "answer": "The motorcycle accelerated loudly in order to chase and catch up with the car where the mobile phone was left."
+      },
+      {
+        "question": "How many primary individuals were involved in the conversation?",
+        "answer": "There were at least three individuals involved: the person who forgot the phone (Speaker A), the motorcycle driver who helped (Speaker B), and the driver of the car."
+      },
+      {
+        "question": "What can be inferred about the relationship between Speaker A and Speaker B?",
+        "answer": "It can be inferred that Speaker A and Speaker B are likely friends or acquaintances, as one is helping the other in a difficult situation."
+      }
     ]
-},{
-  "audio_filename": "clip_02.mp3",
-  "duration_seconds": 30,
-  "language": "Hinglish",
-  "scene_description": "A street food vendor describes the preparation of a breakfast plate for a customer, detailing each ingredient and the final price.",
-  "annotations": [
-    {
-      "type": "non_speech_event",
-      "start_time": 0.0,
-      "end_time": 30.0,
-      "event_label": "street_ambience"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 0.5,
-      "end_time": 3.0,
-      "speaker_id": "Speaker_A",
-      "text": "Delhi ka sabse badhiya naashta, Nitin bhai kitne rupay mein?"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 3.2,
-      "end_time": 3.7,
-      "speaker_id": "Speaker_B",
-      "text": "₹40"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 3.8,
-      "end_time": 5.5,
-      "speaker_id": "Speaker_A",
-      "text": "Lagao bhai, maza aa jayega na kha ke?"
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 5.8,
-      "end_time": 9.7,
-      "speaker_id": "Speaker_B",
-      "text": "Woh tum bataoge. Sabse pehle aloo ki sabzi."
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 9.8,
-      "end_time": 12.1,
-      "speaker_id": "Speaker_B",
-      "text": "Methi daane ki chutney."
-    },
-    {
-      "type": "speech_transcript",
-      "start_time": 12.2,
-      "end_time": 13.7,
-      "speaker_id": "Speaker_B",
-      "text": "Yeh dahi aa gaya."
-    },
-    {
+  },
+  {
+    "audio_filename": "clip_02.mp3",
+    "duration_seconds": 30,
+    "language": "Hinglish",
+    "scene_description": "A street food vendor describes the preparation of a breakfast plate for a customer, detailing each ingredient and the final price.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 30.0,
+        "event_label": "street_ambience"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 0.5,
+        "end_time": 3.0,
+        "speaker_id": "Speaker_A",
+        "text": "Delhi ka sabse badhiya naashta, Nitin bhai kitne rupay mein?"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 3.2,
+        "end_time": 3.7,
+        "speaker_id": "Speaker_B",
+        "text": "₹40"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 3.8,
+        "end_time": 5.5,
+        "speaker_id": "Speaker_A",
+        "text": "Lagao bhai, maza aa jayega na kha ke?"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 5.8,
+        "end_time": 9.7,
+        "speaker_id": "Speaker_B",
+        "text": "Woh tum bataoge. Sabse pehle aloo ki sabzi."
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 9.8,
+        "end_time": 12.1,
+        "speaker_id": "Speaker_B",
+        "text": "Methi daane ki chutney."
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 12.2,
+        "end_time": 13.7,
+        "speaker_id": "Speaker_B",
+        "text": "Yeh dahi aa gaya."
+      },
+      {
         "type": "speech_transcript",
         "start_time": 13.8,
         "end_time": 18.5,
         "speaker_id": "Speaker_B",
         "text": "Yeh chaat masala aa gaya. Yeh dhaniya aa gaya garnishing ke liye."
-    },
-    {
+      },
+      {
         "type": "speech_transcript",
         "start_time": 19.8,
         "end_time": 20.7,
         "speaker_id": "Speaker_A",
         "text": "Iske saath kya mil jayega bhaiya?"
-    },
-    {
+      },
+      {
         "type": "speech_transcript",
         "start_time": 20.8,
         "end_time": 22.7,
         "speaker_id": "Speaker_B",
         "text": "Iske saath kya mil jayega bhaiya?"
-    },
-    {
+      },
+      {
         "type": "speech_transcript",
         "start_time": 24.5,
         "end_time": 26.8,
         "speaker_id": "Speaker_A",
-        "text":"Taiyaar ho gaya kya apna naashta? Kitne rupay mein?"
-    },
-    {
+        "text": "Taiyaar ho gaya kya apna naashta? Kitne rupay mein?"
+      },
+      {
         "type": "speech_transcript",
         "start_time": 26.9,
         "end_time": 29.0,
         "speaker_id": "Speaker_B",
         "text": "₹40. Isko khaane ke liye aana kahan padega? Saamne aa jao."
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What dish is being prepared and what is its price?",
+        "answer": "A plate of breakfast is being prepared which is served with two Bedmi Puris. The total cost is ₹40."
+      },
+      {
+        "question": "What are the components of the dish described by the vendor?",
+        "answer": "The dish consists of Aloo ki Sabji (potato curry), Methi Daane ki Chutney (fenugreek seed chutney), Dahi (yogurt), Chaat Masala, and is garnished with Dhaniya (coriander)."
+      },
+      {
+        "question": "How many people are speaking in the audio?",
+        "answer": "There are two main speakers: the customer (Speaker A) and the food vendor (Speaker B)."
+      },
+       {
+      "question": "What can be inferred about the location of the food stall?",
+      "answer": "The food stall is located in Delhi, as the customer calls the dish 'Dilli ka sabse badhiya naashta'. The vendor also implies the stall is right in front of the customer."
+    },
+      {
+        "question": "What does the customer need to do to eat this breakfast?",
+        "answer": "The vendor tells the customer to just come 'in front' ('samne aa jao'), implying the stall is right there and ready to serve."
+      }
+    ]
+  },
+  {
+    "audio_filename": "clip_03.mp3",
+    "duration_seconds": 18,
+    "language": "English, Tamil",
+    "scene_description": "A lively outdoor scene, possibly on a street, with a group of young people or children interacting loudly and cheerfully. There is background traffic noise throughout.",
+    "annotations": [
+      {
+        "type": "non_speech_event",
+        "start_time": 0.0,
+        "end_time": 18.0,
+        "event_label": "street_ambience_light_traffic"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 0.5,
+        "end_time": 4.1,
+        "speaker_id": "Speaker_A",
+        "text": "What are you up to mate? Eating all those tomatoes?"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 5.0,
+        "end_time": 6.8,
+        "speaker_id": "Speaker_A",
+        "text": "Is he hungry or what?"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 7.0,
+        "end_time": 9.5,
+        "speaker_id": "Speaker_B",
+        "text": "Chill-u kudukkuren, appadi nillu style-ah [I'm giving a chill pose, stand stylishly like this]"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 9.8,
+        "end_time": 12.0,
+        "speaker_id": "Speaker_C",
+        "text": "Ennada? Hi sollanum, hi sollu [What man? You should say hi, say hi]"
+      },
+      {
+        "type": "non_speech_event",
+        "start_time": 11.0,
+        "end_time": 18.0,
+        "event_label": "group_laughing_and_cheering"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 12.1,
+        "end_time": 13.0,
+        "speaker_id": "Group",
+        "text": "Hi! Hey!"
+      },
+      {
+        "type": "speech_transcript",
+        "start_time": 14.5,
+        "end_time": 17.5,
+        "speaker_id": "Speaker_D",
+        "text": "I was also running... [unintelligible]"
+      }
+    ],
+    "speaker_details": [
+      {
+        "speaker_id": "Speaker_A",
+        "gender": "male",
+        "age_group": "young_adult",
+        "description": "Speaks in English"
+      },
+      {
+        "speaker_id": "Speaker_B",
+        "gender": "male",
+        "age_group": "child/teen",
+        "description": "Speaks in Tamil"
+      },
+      {
+        "speaker_id": "Speaker_C",
+        "gender": "male",
+        "age_group": "child/teen",
+        "description": "Speaks in Tamil"
+      },
+      {
+        "speaker_id": "Speaker_D",
+        "gender": "male",
+        "age_group": "child/teen",
+        "description": "Speaks in English"
+      },
+      {
+        "speaker_id": "Group",
+        "description": "Multiple people cheering"
+      }
+    ],
+    "question_answer_pairs": [
+      {
+        "question": "What languages are being spoken in this audio?",
+        "answer": "The speakers are primarily using English and Tamil."
+      },
+      {
+        "question": "Describe the overall mood of the scene.",
+        "answer": "The mood is very cheerful, energetic, and playful, as indicated by the group laughing and cheering throughout the latter half of the clip."
+      },
+      {
+        "question": "What is Speaker C asking someone to do?",
+        "answer": "Speaker C is playfully telling someone to say 'hi' to the group."
+      },
+      {
+        "question": "What kind of environment is this conversation taking place in?",
+        "answer": "It's likely an outdoor public space, like a street, because of the constant light traffic and ambient noise in the background."
+      }
+    ]
+  },
+  {
+  "audio_filename": "clip_04.mp3",
+  "duration_seconds": 57,
+  "language": "Marathi, Hindi",
+  "scene_description": "The chaotic and noisy ambience of a busy Indian railway station, with multiple, overlapping public announcements in Marathi and Hindi, and dense crowd chatter.",
+  "annotations": [
+    {
+      "type": "non_speech_event",
+      "start_time": 0.0,
+      "end_time": 57.0,
+      "event_label": "station_ambience_crowd_noise"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 1.5,
+      "end_time": 8.5,
+      "speaker_id": "Announcer_F1",
+      "text": "Dombivli la janari... platform kramank ek var... aaplya apekshit platform kramank ek var... [Going to Dombivli... on platform number one... on your expected platform number one...]"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 16.0,
+      "end_time": 26.0,
+      "speaker_id": "Announcer_F2",
+      "text": "Dombivli ke liye jaane wali... platform kramank do ki taraf se... nau bajkar pandrah minute pe... Dombivli ke liye jaane wali... [Going to Dombivli... from platform number two... at 9:15... Going to Dombivli...]"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 27.0,
+      "end_time": 33.5,
+      "speaker_id": "Announcer_F1",
+      "text": "Platform kramank chheh se... Yatri krupaya nond ghyavi... [From platform number six... Passengers please take note...]"
+    },
+    {
+      "type": "speech_transcript",
+      "start_time": 34.0,
+      "end_time": 38.0,
+      "speaker_id": "Announcer_F2",
+      "text": "...yatriyon se anurodh hai ki kripya dhyan de... [...passengers are requested to please pay attention...]"
+    },
+    {
+        "type": "speech_transcript",
+        "start_time": 42.0,
+        "end_time": 55.0,
+        "speaker_id": "Announcer_F1",
+        "text": "Platform kramank paach varun... [From platform number five...]"
     }
+  ],
+  "speaker_details": [
+      {"speaker_id": "Announcer_F1", "gender": "female", "age_group": "adult", "description": "PA system announcer (Marathi)"},
+      {"speaker_id": "Announcer_F2", "gender": "female", "age_group": "adult", "description": "PA system announcer (Hindi)"}
   ],
   "question_answer_pairs": [
     {
-      "question": "What dish is being prepared and what is its price?",
-      "answer": "A plate of breakfast is being prepared which is served with two Bedmi Puris. The total cost is ₹40."
+      "question": "What kind of environment does this audio capture?",
+      "answer": "The audio captures the environment of a very busy and crowded Indian railway station, which can be inferred from the constant crowd noise and the public address system announcements about train platforms."
     },
     {
-      "question": "What are the components of the dish described by the vendor?",
-      "answer": "The dish consists of Aloo ki Sabji (potato curry), Methi Daane ki Chutney (fenugreek seed chutney), Dahi (yogurt), Chaat Masala, and is garnished with Dhaniya (coriander)."
+      "question": "What is the primary destination being announced for the trains?",
+      "answer": "The primary destination being announced is Dombivli, which is mentioned repeatedly in both the Marathi and Hindi announcements."
     },
     {
-      "question": "How many people are speaking in the audio?",
-      "answer": "There are two main speakers: the customer (Speaker A) and the food vendor (Speaker B)."
+      "question": "What makes understanding the announcements in this audio difficult?",
+      "answer": "Understanding is difficult due to the heavy background crowd noise and multiple, overlapping announcements being made in at least two different languages (Marathi and Hindi)."
     },
     {
-      "question": "What does the customer need to do to eat this breakfast?",
-      "answer": "The vendor tells the customer to just come 'in front' ('सामने आ जाओ'), implying the stall is right there and ready to serve."
+      "question": "What specific train details, like platform numbers and times, can be gathered from the announcements?",
+      "answer": "The announcements are fragmented, but mention a train to Dombivli at 9:15 from platform 2. Other platforms mentioned are 1, 5, and 6, but the specific train details for them are unclear due to the noise and overlap."
     }
   ]
 }
-
 ]

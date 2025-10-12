@@ -598,6 +598,9 @@
       {
         "question": "Based on the lyrics, what is the theme of the song?",
         "answer": "The song has a religious theme, as indicated by the chanting of Hindu deity names like 'Radha Murari' and 'Ram'."
+      },
+      {
+        "sub": "jisne accont hack kiya uska bahut bura hal hoga"
       }
     ]
   }
